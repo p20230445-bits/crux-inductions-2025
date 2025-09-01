@@ -12,7 +12,7 @@ All code is in the `notebooks/` folder. Each notebook is self-contained and runn
 
 ---
 
-## 🚀 Open in Colab
+## Open in Colab
 
 > Replace `p20230445-bits` with your GitHub username.
 
@@ -27,7 +27,7 @@ All code is in the `notebooks/` folder. Each notebook is self-contained and runn
 
 ---
 
-## 📊 Results
+## Results
 
 | Task | Dataset | Metric | Result |
 |---|---|---:|---:|
@@ -37,7 +37,7 @@ All code is in the `notebooks/` folder. Each notebook is self-contained and runn
 
 ---
 
-## 📂 Repository structure
+## Repository structure
 ├─ notebooks/
 
 │ ├─ Task1_MLP.ipynb
@@ -52,7 +52,7 @@ All code is in the `notebooks/` folder. Each notebook is self-contained and runn
 
 ---
 
-## 🛠 How to run (Colab)
+## How to run (Colab)
 
 Colab is the simplest route; just open each notebook with the badge above and **Runtime → Run all**.  
 
@@ -69,7 +69,7 @@ Notes per task:
 
 ---
 
-## 💻 How to run (local)
+## How to run (local)
 
 Create a fresh virtual environment and install dependencies:
 
@@ -84,7 +84,7 @@ pip install -e pykan
 ```
 ---
 
-##🔄 Repro tips
+## Repro tips
 
 GPU: In Colab, set Runtime → Change runtime type → GPU.
 
@@ -92,7 +92,7 @@ Speed: For Task 2, use smaller MAX_LEN or fewer samples for quick tests.
 
 Determinism: A fixed SEED=42 is used where applicable.
 
-📘 Notebook details
+## Notebook details
 
 Task1_MLP.ipynb — Implements MLP from scratch, 5-fold CV, mean accuracy ≈ 0.9733.
 
@@ -100,6 +100,6 @@ Task1_KAN.ipynb — Implements KAN using PyKAN on Iris, test accuracy ≈ 0.9333
 
 Task2_MAMBA_sentiment_classification.ipynb — Simplified MAMBA block for IMDb sentiment classification, test accuracy ≈ 0.7959.
 
-📜 License
+## License
 
 This repository is for CRUx Inductions 2025 evaluation. Code is for educational purposes.
